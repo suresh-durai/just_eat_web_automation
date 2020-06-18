@@ -1,0 +1,260 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-15T12:45:44.940Z",
+        "line": 6,
+        "name": "Search for restaurants in an area with a valid postal code",
+        "description": "",
+        "id": "use-the-website-(http://www.just-eat.co.uk/)-to-find-restaurants;search-for-restaurants-in-an-area-with-a-valid-postal-code",
+        "after": [
+          {
+            "result": {
+              "duration": 697320500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_definition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7735487100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to the landing page",
+            "match": {
+              "location": "Step_definition.user_navigate_to_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 296856200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter \"AR51 1AA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AR51 1AA",
+                  "offset": 12
+                }
+              ],
+              "location": "Step_definition.user_enter_something(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3739701800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User search for restaurants",
+            "match": {
+              "location": "Step_definition.user_search_for_restaurants()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2119100800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see some restaurants in the entered postalcode",
+            "match": {
+              "location": "Step_definition.user_should_see_some_restaurants_in_the_entered_postalcode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-15T12:45:59.595Z",
+        "line": 12,
+        "name": "Search for restaurants in an area with an invalid postal code",
+        "description": "",
+        "id": "use-the-website-(http://www.just-eat.co.uk/)-to-find-restaurants;search-for-restaurants-in-an-area-with-an-invalid-postal-code",
+        "after": [
+          {
+            "result": {
+              "duration": 243246800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_definition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7743341000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User navigate to the landing page",
+            "match": {
+              "location": "Step_definition.user_navigate_to_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1121921900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter \"AR51 1A\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AR51 1A",
+                  "offset": 12
+                }
+              ],
+              "location": "Step_definition.user_enter_something(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237985700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User search for restaurants",
+            "match": {
+              "location": "Step_definition.user_search_for_restaurants()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59738000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should see postal code error on the page",
+            "match": {
+              "location": "Step_definition.user_should_see_postal_code_error_on_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-15T12:46:09.007Z",
+        "line": 18,
+        "name": "Search for a specific restaurant in the available search result",
+        "description": "",
+        "id": "use-the-website-(http://www.just-eat.co.uk/)-to-find-restaurants;search-for-a-specific-restaurant-in-the-available-search-result",
+        "after": [
+          {
+            "result": {
+              "duration": 4173077700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_definition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6203468800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigate to the landing page",
+            "match": {
+              "location": "Step_definition.user_navigate_to_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 822019500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter \"AR51 1AA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AR51 1AA",
+                  "offset": 12
+                }
+              ],
+              "location": "Step_definition.user_enter_something(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3461398600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User search for restaurants",
+            "match": {
+              "location": "Step_definition.user_search_for_restaurants()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1282142300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should see some restaurants in the entered postalcode",
+            "match": {
+              "location": "Step_definition.user_should_see_some_restaurants_in_the_entered_postalcode()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003cSearch\nSearch\u003e but was:\u003cTASKUS PAPA JOHNS\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:81)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:87)\r\n\tat stepDefinitions.Step_definition.user_search_for_something_restaurant_in_the_available_search_result(Step_definition.java:66)\r\n\tat ✽.User search for \"TASKUS PAPA JOHNS\" restaurant in the available search result(file:src/test/java/features/Find_Restaurants.feature:23)\r\n",
+              "duration": 4599909300,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "User search for \"TASKUS PAPA JOHNS\" restaurant in the available search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TASKUS PAPA JOHNS",
+                  "offset": 17
+                }
+              ],
+              "location": "Step_definition.user_search_for_something_restaurant_in_the_available_search_result(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Use the website (http://www.just-eat.co.uk/) to find restaurants",
+    "description": "  So that I can order food\n  As a hungry customer\n\tI want to be able to find restaurants in my area",
+    "id": "use-the-website-(http://www.just-eat.co.uk/)-to-find-restaurants",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Find_Restaurants.feature",
+    "tags": []
+  }
+]
