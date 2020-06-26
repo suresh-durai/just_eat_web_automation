@@ -14,7 +14,7 @@ Scenario: Search for restaurants in an area with an invalid postal code
 	And User enter "AR51 1A"	 
 	When User search for restaurants
 	Then User should see postal code error on the page  
-	
+
 Scenario: Search for a specific restaurant in the available search result
 	Given User navigate to the landing page
 	And User enter "AR51 1AA"	 
